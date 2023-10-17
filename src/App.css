@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background: #282c34;
+}
+img{
+  width: 80%;
+}
+ul{
+  list-style: none;
+}
+.grey{
+  color:#696969;
+}
+h1,
+h2,
+h5,
+h6 {
+  margin: 0;
+}
+h2{
+  color: #fff;
+}
+p{
+  color: #fff;
+  line-height: 25px;
+}
+.blue-text,
+a{
+  text-decoration: none;
+  color: #00E0FF;
+}
+
+@media(min-width:1200px) {
+  h2{
+    font-size: 32px;
+  }
+  p,
+  h5,
+  h6{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1.1%;
+  }
+}
